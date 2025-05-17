@@ -1,0 +1,63 @@
+# 依赖目录
+node_modules/
+
+# 编译输出
+/dist/
+/jens-frontend/dist/
+
+# 本地环境文件
+.env.local
+.env.*.local
+.env
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# 编辑器目录和文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# 测试覆盖率报告
+/coverage/
+
+# Flask后端的忽略规则
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+jens-backend/venv/
+jens-backend/instance/
+jens-backend/.pytest_cache/
+jens-backend/.coverage
+jens-backend/htmlcov/
+jens-backend/build/
+jens-backend/uploads/
+
+# SQLite数据库文件(如果有)
+*.sqlite
+*.db
+
+# 上传的文件目录
+jens-backend/app/static/uploads/
+
+# 编译资源
+.sass-cache/
+.cache/
+.parcel-cache/
+
+# Cursor编辑器配置
+.cursor/
+
+# 临时文件
+*.tmp 
