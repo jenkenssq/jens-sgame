@@ -213,7 +213,9 @@ python run.py
 
 ## 联系方式
 
-项目维护者: JENS
+项目作者: JENS
+邮箱：jenkens@qq.com
+github:https://github.com/jenkenssq
 
 ## 致谢
 
